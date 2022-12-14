@@ -250,9 +250,7 @@ img{
      line-height: 40px;
      letter-spacing: 2%;
      color: #2E2F42;
-    
-}
-
+    }
 .our_team
  {
     text-align: center;
@@ -271,7 +269,6 @@ img{
      margin: 0;
      padding: 0;
      gap: 24px;
-          
     }
 .team-list-item {
         width: 264px;
@@ -280,12 +277,10 @@ img{
         border-radius: 10px;
         overflow: hidden;
     }
-    
- .card-content {
+.card-content {
     text-align: center;
     padding: 32px 16px;
  }       
-
 .section-page{
     padding-top: 96px;
     padding-bottom: 120px;
@@ -309,7 +304,7 @@ img{
     line-height: 1.5;
     font-size: 16px;
     padding: 12px 24px;
-        }
+    }
 .portfolio-cards_list {
     padding: 0;
     margin: 0;
@@ -338,7 +333,6 @@ img{
 .card-text_portfolio{
     margin: 0;
 }
-
 .portfolio-cards_box {
     padding: 32px 16px;
 }
@@ -351,7 +345,6 @@ img{
 .container_footer {
     width: 264px;
 }  
-
 .footer-text {
     color: var(--accent);
     font-size: 16px;
