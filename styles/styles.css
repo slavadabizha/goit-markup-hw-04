@@ -49,6 +49,8 @@ body {
     text-decoration: none;
     color: var(--dark);
     text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 .foot-logo {
     font-family: 'Raleway';
@@ -81,7 +83,6 @@ body {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -91,15 +92,17 @@ body {
     }
 .mail{
     display: flex;
+    margin: 0;
     margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-family: 'Roboto';     
     font-size: 16px;
     line-height: 1.5;  
     letter-spacing: 0.02em;  
+    gap: 40px;
     }
-.mail .item { 
-    margin-left: 40px;
-    }
+
 .nav-links:hover,
 .nav-links:focus {
     color: var(--primary-brand);
@@ -163,8 +166,7 @@ button:focus {
 }
 .card-content { 
     padding: 16px 32px 16px 32px;
-    
- }
+     }
 .card-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -196,7 +198,6 @@ button:focus {
     margin-bottom: 192px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .main-button:hover,
 .main-button:focus {
@@ -207,19 +208,19 @@ button:focus {
     display: flex;
     justify-content: center;
     margin: 0;
+    margin-bottom: 120px;
     padding: 0;
+    gap: 24px;
     }
 .feature_list .item {
     width: 264px;
-    margin-right: 24px;
-   }
+    }
 .section-list {  
     display: block;
     justify-content: center;
     align-items: center;
     margin-bottom: 120px;
 }
-
 .card-title_list {
     display: flex;
     justify-content: center;
@@ -239,11 +240,22 @@ img{
     height: 732px;
     background-color: var(--light);
     }
-.card-title-head,
-.card-title_team
+.What_are_we_doing
+{ 
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 72px;
+    font-weight: 500;
+     font-size: 36px;
+     line-height: 40px;
+     letter-spacing: 2%;
+     color: #2E2F42;
+    
+}
+
+.our_team
  {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 120px;
     padding-bottom: 72px;
     font-weight: 500;
@@ -258,18 +270,20 @@ img{
      justify-content: center;
      margin: 0;
      padding: 0;
+     gap: 24px;
           
     }
 .team-list-item {
         width: 264px;
-        margin-right: 24px;
         background-color: #ffffff;
         box-shadow: var(--card-shadow);
         border-radius: 10px;
         overflow: hidden;
-        }
+    }
+    
  .card-content {
     text-align: center;
+    padding: 32px 16px;
  }       
 
 .section-page{
@@ -306,8 +320,7 @@ img{
     row-gap: 48px;
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
-      
-}
+    }
 .portfolio-cards_item {
     flex-basis: calc((100% - 2 * 24px) / 3) ;
     box-shadow: var(--card-shadow);
