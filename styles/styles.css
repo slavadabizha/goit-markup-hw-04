@@ -264,11 +264,11 @@ button:focus {
         background-color: #F4F4FD;    
     }
     .item:nth-child(1)::before {     
-        background-image: url("/images/antenna1.svg");
+        background-image: url("/images/antenna.svg");
         margin-bottom: 8px;    
     }
     .item:nth-child(2)::before {
-        background-image: url("/images/clock1.svg");
+        background-image: url("/images/clock.svg");
         margin-bottom: 8px;
     }
     .item:nth-child(3)::before {
@@ -276,7 +276,7 @@ button:focus {
         margin-bottom: 8px;
     }
     .item:nth-child(4)::before {
-        background-image: url("/images/astronaut1.svg"); 
+        background-image: url("/images/astronaut.svg"); 
         margin-bottom: 8px;
     }
 .card-title_list {
