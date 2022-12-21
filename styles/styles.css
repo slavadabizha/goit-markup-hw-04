@@ -170,6 +170,7 @@ button:hover,
 button:focus {
     background-color: var(--primary-brand);
     color: #ffffff;
+    box-shadow: var(--card-shadow);
 }
 .card-content { 
     padding: 16px 32px 16px 32px;
