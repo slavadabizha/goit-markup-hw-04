@@ -193,7 +193,8 @@ button:focus {
     .trailing_icons_icon {
         fill: #F4F4FD;
     }
-    .trailing_icons_link:hover, :focus {
+    .trailing_icons_link:hover,
+    .trailing_icons_link:focus {
     background: #31D0AA;
     cursor: pointer;
     }
@@ -345,11 +346,6 @@ img{
     gap: 24px;
     } 
     .logo-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
     width: calc((100%-5*24px) / 6);
     height: 88px;    
     } 
@@ -494,7 +490,8 @@ img{
 .social-footer-icon {
     fill: #F4F4FD;
 }
-.social-footer-link:hover, :focus {
+.social-footer-link:hover,
+.social-footer-link:hover:focus {
     background: #31D0AA;
     cursor: pointer;
 }
